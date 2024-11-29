@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template_modifications>
+  <modification type="admin" template="category_edit" modification_key="category_edit" description="category_edit" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<xf:macro id="node_edit_macros::description" arg-node="{$node}" />]]></find>
+    <replace><![CDATA[$0
+<xf:assetuploadrow name="node[node_background]"
+                   value="{$node.node_background}"
+                   asset="nodebackground"
+                   label="{{ phrase('node_background') }}"
+            />]]></replace>
+  </modification>
+  <modification type="admin" template="forum_edit" modification_key="forum_edit" description="forum_edit" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<xf:macro id="node_edit_macros::description" arg-node="{$node}" />]]></find>
+    <replace><![CDATA[$0
+<xf:assetuploadrow name="node[node_background]"
+                   value="{$node.node_background}"
+                   asset="nodebackground"
+                   label="{{ phrase('node_background') }}"
+            />]]></replace>
+  </modification>
+  <modification type="admin" template="link_forum_edit" modification_key="link_forum_edit" description="link_forum_edit" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<xf:macro id="node_edit_macros::description" arg-node="{$node}" />]]></find>
+    <replace><![CDATA[$0
+<xf:assetuploadrow name="node[node_background]"
+                   value="{$node.node_background}"
+                   asset="nodebackground"
+                   label="{{ phrase('node_background') }}"
+            />]]></replace>
+  </modification>
+  <modification type="admin" template="search_forum_edit" modification_key="search_forum_edit" description="search_forum_edit" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<xf:macro id="node_edit_macros::description" arg-node="{$node}" />]]></find>
+    <replace><![CDATA[$0
+<xf:assetuploadrow name="node[node_background]"
+                   value="{$node.node_background}"
+                   asset="nodebackground"
+                   label="{{ phrase('node_background') }}"
+            />]]></replace>
+  </modification>
+</template_modifications>

@@ -1,0 +1,14 @@
+{
+    "legacy_addon_id": "",
+    "title": "[DohTheme] RE-MI",
+    "description": "A Powerful Framework From DohTheme",
+    "version_id": 1000300,
+    "version_string": "1.0.3",
+    "dev": "DohTheme",
+    "dev_url": "https://www.dohtheme.com",
+    "faq_url": "",
+    "support_url": "https://www.dohtheme.com/community/index.php?support-tickets",
+    "extra_urls": [],
+    "require": [],
+    "icon": "icon.png"
+}

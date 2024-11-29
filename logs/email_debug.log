@@ -1,0 +1,1609 @@
+SMTP Debug: [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3824a855aedsm3514333f8f.83 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: EHLO localhost
+
+SMTP Debug: [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2a0d:6fc2:4de0:5e00:7533:481d:aa39:e1e2]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+SMTP Debug: [1] CLIENT -> SERVER: AUTH LOGIN
+
+SMTP Debug: [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+SMTP Debug: [1] CLIENT -> SERVER: [credentials hidden]
+SMTP Debug: [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+SMTP Debug: [1] CLIENT -> SERVER: [credentials hidden]
+SMTP Debug: [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+SMTP Debug: [1] CLIENT -> SERVER: MAIL FROM:<arcanisonline@gmail.com>
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-3824a855aedsm3514333f8f.83 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: RCPT TO:<fuck@shit.com>
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-3824a855aedsm3514333f8f.83 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: DATA
+
+SMTP Debug: [2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-3824a855aedsm3514333f8f.83 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: Date: Tue, 19 Nov 2024 07:21:14 +0100
+
+SMTP Debug: [1] CLIENT -> SERVER: To: fuck@shit.com
+
+SMTP Debug: [1] CLIENT -> SERVER: From: Awaken Support <arcanisonline@gmail.com>
+
+SMTP Debug: [1] CLIENT -> SERVER: Subject: Password Reset Code
+
+SMTP Debug: [1] CLIENT -> SERVER: Message-ID: <kJ6gDMxo6zm03CsK327KbzyP20omySoDaN2VrqUMEU@localhost>
+
+SMTP Debug: [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+SMTP Debug: [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+SMTP Debug: [1] CLIENT -> SERVER:  boundary="b1=_kJ6gDMxo6zm03CsK327KbzyP20omySoDaN2VrqUMEU"
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_kJ6gDMxo6zm03CsK327KbzyP20omySoDaN2VrqUMEU
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: Your password reset code is: 402128
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_kJ6gDMxo6zm03CsK327KbzyP20omySoDaN2VrqUMEU
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: <p>Your password reset code is: <strong>402128</strong></p>
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_kJ6gDMxo6zm03CsK327KbzyP20omySoDaN2VrqUMEU--
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: .
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.0.0 OK  1731997277 ffacd0b85a97d-3824a855aedsm3514333f8f.83 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: QUIT
+
+SMTP Debug: [2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-3824a855aedsm3514333f8f.83 - gsmtp
+
+SMTP Debug: [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-432dac1f409sm178500935e9.37 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: EHLO localhost
+
+SMTP Debug: [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2a0d:6fc2:4de0:5e00:44ac:449e:5d78:1abe]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+SMTP Debug: [1] CLIENT -> SERVER: AUTH LOGIN
+
+SMTP Debug: [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+SMTP Debug: [1] CLIENT -> SERVER: [credentials hidden]
+SMTP Debug: [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+SMTP Debug: [1] CLIENT -> SERVER: [credentials hidden]
+SMTP Debug: [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+SMTP Debug: [1] CLIENT -> SERVER: MAIL FROM:<arcanisonline@gmail.com>
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-432dac1f409sm178500935e9.37 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: RCPT TO:<arcanisonline@gmail.com>
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-432dac1f409sm178500935e9.37 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: DATA
+
+SMTP Debug: [2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-432dac1f409sm178500935e9.37 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: Date: Tue, 19 Nov 2024 07:23:06 +0100
+
+SMTP Debug: [1] CLIENT -> SERVER: To: arcanisonline@gmail.com
+
+SMTP Debug: [1] CLIENT -> SERVER: From: Awaken Support <arcanisonline@gmail.com>
+
+SMTP Debug: [1] CLIENT -> SERVER: Subject: Password Reset Code
+
+SMTP Debug: [1] CLIENT -> SERVER: Message-ID: <Er0V5Qp0m2ORltzjkwohpua8852cfPjeiYPVUHBRRU@localhost>
+
+SMTP Debug: [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+SMTP Debug: [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+SMTP Debug: [1] CLIENT -> SERVER:  boundary="b1=_Er0V5Qp0m2ORltzjkwohpua8852cfPjeiYPVUHBRRU"
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_Er0V5Qp0m2ORltzjkwohpua8852cfPjeiYPVUHBRRU
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: Your password reset code is: 865307
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_Er0V5Qp0m2ORltzjkwohpua8852cfPjeiYPVUHBRRU
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: <p>Your password reset code is: <strong>865307</strong></p>
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_Er0V5Qp0m2ORltzjkwohpua8852cfPjeiYPVUHBRRU--
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: .
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.0.0 OK  1731997389 5b1f17b1804b1-432dac1f409sm178500935e9.37 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: QUIT
+
+SMTP Debug: [2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-432dac1f409sm178500935e9.37 - gsmtp
+
+SMTP Debug: [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-432dab80ad9sm178353765e9.25 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: EHLO localhost
+
+SMTP Debug: [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2a0d:6fc2:4de0:5e00:44ac:449e:5d78:1abe]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+SMTP Debug: [1] CLIENT -> SERVER: AUTH LOGIN
+
+SMTP Debug: [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+SMTP Debug: [1] CLIENT -> SERVER: [credentials hidden]
+SMTP Debug: [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+SMTP Debug: [1] CLIENT -> SERVER: [credentials hidden]
+SMTP Debug: [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+SMTP Debug: [1] CLIENT -> SERVER: MAIL FROM:<arcanisonline@gmail.com>
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-432dab80ad9sm178353765e9.25 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: RCPT TO:<arcanisonline@gmail.com>
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-432dab80ad9sm178353765e9.25 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: DATA
+
+SMTP Debug: [2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-432dab80ad9sm178353765e9.25 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: Date: Tue, 19 Nov 2024 07:26:38 +0100
+
+SMTP Debug: [1] CLIENT -> SERVER: To: arcanisonline@gmail.com
+
+SMTP Debug: [1] CLIENT -> SERVER: From: Awaken Support <arcanisonline@gmail.com>
+
+SMTP Debug: [1] CLIENT -> SERVER: Subject: Password Reset Code
+
+SMTP Debug: [1] CLIENT -> SERVER: Message-ID: <pP6kH4Ttcx6T1j2N3Nmqbiy9gOh0TlZyntu4VTC5wxQ@localhost>
+
+SMTP Debug: [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+SMTP Debug: [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+SMTP Debug: [1] CLIENT -> SERVER:  boundary="b1=_pP6kH4Ttcx6T1j2N3Nmqbiy9gOh0TlZyntu4VTC5wxQ"
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_pP6kH4Ttcx6T1j2N3Nmqbiy9gOh0TlZyntu4VTC5wxQ
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: Your password reset code is: 822548
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_pP6kH4Ttcx6T1j2N3Nmqbiy9gOh0TlZyntu4VTC5wxQ
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: <p>Your password reset code is: <strong>822548</strong></p>
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_pP6kH4Ttcx6T1j2N3Nmqbiy9gOh0TlZyntu4VTC5wxQ--
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: .
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.0.0 OK  1731997600 5b1f17b1804b1-432dab80ad9sm178353765e9.25 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: QUIT
+
+SMTP Debug: [2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-432dab80ad9sm178353765e9.25 - gsmtp
+
+SMTP Debug: [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3821ada3fc9sm14668755f8f.20 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: EHLO localhost
+
+SMTP Debug: [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2a0d:6fc2:4de0:5e00:44ac:449e:5d78:1abe]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+SMTP Debug: [1] CLIENT -> SERVER: AUTH LOGIN
+
+SMTP Debug: [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+SMTP Debug: [1] CLIENT -> SERVER: [credentials hidden]
+SMTP Debug: [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+SMTP Debug: [1] CLIENT -> SERVER: [credentials hidden]
+SMTP Debug: [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+SMTP Debug: [1] CLIENT -> SERVER: MAIL FROM:<arcanisonline@gmail.com>
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-3821ada3fc9sm14668755f8f.20 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: RCPT TO:<arcanisonline@gmail.com>
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-3821ada3fc9sm14668755f8f.20 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: DATA
+
+SMTP Debug: [2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-3821ada3fc9sm14668755f8f.20 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: Date: Tue, 19 Nov 2024 07:27:49 +0100
+
+SMTP Debug: [1] CLIENT -> SERVER: To: arcanisonline@gmail.com
+
+SMTP Debug: [1] CLIENT -> SERVER: From: Awaken Support <arcanisonline@gmail.com>
+
+SMTP Debug: [1] CLIENT -> SERVER: Subject: Password Reset Code
+
+SMTP Debug: [1] CLIENT -> SERVER: Message-ID: <sMHFU3NGANcN0ldOTKEh1UOsYPaVqqgfWwYfYvsclU@localhost>
+
+SMTP Debug: [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+SMTP Debug: [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+SMTP Debug: [1] CLIENT -> SERVER:  boundary="b1=_sMHFU3NGANcN0ldOTKEh1UOsYPaVqqgfWwYfYvsclU"
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_sMHFU3NGANcN0ldOTKEh1UOsYPaVqqgfWwYfYvsclU
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: Your password reset code is: 343607
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_sMHFU3NGANcN0ldOTKEh1UOsYPaVqqgfWwYfYvsclU
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: <p>Your password reset code is: <strong>343607</strong></p>
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_sMHFU3NGANcN0ldOTKEh1UOsYPaVqqgfWwYfYvsclU--
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: .
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.0.0 OK  1731997671 ffacd0b85a97d-3821ada3fc9sm14668755f8f.20 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: QUIT
+
+SMTP Debug: [2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-3821ada3fc9sm14668755f8f.20 - gsmtp
+
+SMTP Debug: [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-432da298a41sm187026095e9.38 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: EHLO localhost
+
+SMTP Debug: [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2a0d:6fc2:4de0:5e00:44ac:449e:5d78:1abe]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+SMTP Debug: [1] CLIENT -> SERVER: AUTH LOGIN
+
+SMTP Debug: [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+SMTP Debug: [1] CLIENT -> SERVER: [credentials hidden]
+SMTP Debug: [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+SMTP Debug: [1] CLIENT -> SERVER: [credentials hidden]
+SMTP Debug: [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+SMTP Debug: [1] CLIENT -> SERVER: MAIL FROM:<arcanisonline@gmail.com>
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-432da298a41sm187026095e9.38 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: RCPT TO:<arcanisonline@gmail.com>
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-432da298a41sm187026095e9.38 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: DATA
+
+SMTP Debug: [2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-432da298a41sm187026095e9.38 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: Date: Tue, 19 Nov 2024 07:32:47 +0100
+
+SMTP Debug: [1] CLIENT -> SERVER: To: arcanisonline@gmail.com
+
+SMTP Debug: [1] CLIENT -> SERVER: From: Awaken Support <arcanisonline@gmail.com>
+
+SMTP Debug: [1] CLIENT -> SERVER: Subject: Password Reset Code
+
+SMTP Debug: [1] CLIENT -> SERVER: Message-ID: <utxnPjQFVmXeVO6LOZyaqICCO3oiOQJVgndYexXKZc@localhost>
+
+SMTP Debug: [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+SMTP Debug: [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+SMTP Debug: [1] CLIENT -> SERVER:  boundary="b1=_utxnPjQFVmXeVO6LOZyaqICCO3oiOQJVgndYexXKZc"
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_utxnPjQFVmXeVO6LOZyaqICCO3oiOQJVgndYexXKZc
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: Your password reset code is: 794257
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_utxnPjQFVmXeVO6LOZyaqICCO3oiOQJVgndYexXKZc
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: <p>Your password reset code is: <strong>794257</strong></p>
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_utxnPjQFVmXeVO6LOZyaqICCO3oiOQJVgndYexXKZc--
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: .
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.0.0 OK  1731997969 5b1f17b1804b1-432da298a41sm187026095e9.38 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: QUIT
+
+SMTP Debug: [2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-432da298a41sm187026095e9.38 - gsmtp
+
+SMTP Debug: [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-382462dbb5esm5566944f8f.52 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: EHLO localhost
+
+SMTP Debug: [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2a0d:6fc2:4de0:5e00:44ac:449e:5d78:1abe]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+SMTP Debug: [1] CLIENT -> SERVER: AUTH LOGIN
+
+SMTP Debug: [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+SMTP Debug: [1] CLIENT -> SERVER: [credentials hidden]
+SMTP Debug: [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+SMTP Debug: [1] CLIENT -> SERVER: [credentials hidden]
+SMTP Debug: [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+SMTP Debug: [1] CLIENT -> SERVER: MAIL FROM:<arcanisonline@gmail.com>
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-382462dbb5esm5566944f8f.52 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: RCPT TO:<arcanisonline@gmail.com>
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-382462dbb5esm5566944f8f.52 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: DATA
+
+SMTP Debug: [2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-382462dbb5esm5566944f8f.52 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: Date: Tue, 19 Nov 2024 07:36:40 +0100
+
+SMTP Debug: [1] CLIENT -> SERVER: To: arcanisonline@gmail.com
+
+SMTP Debug: [1] CLIENT -> SERVER: From: Awaken Support <arcanisonline@gmail.com>
+
+SMTP Debug: [1] CLIENT -> SERVER: Subject: Password Reset Code
+
+SMTP Debug: [1] CLIENT -> SERVER: Message-ID: <2Dhg6FHlBy8mMMzn6XAWChxaPl2abWZHFSdzC1Zus@localhost>
+
+SMTP Debug: [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+SMTP Debug: [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+SMTP Debug: [1] CLIENT -> SERVER:  boundary="b1=_2Dhg6FHlBy8mMMzn6XAWChxaPl2abWZHFSdzC1Zus"
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_2Dhg6FHlBy8mMMzn6XAWChxaPl2abWZHFSdzC1Zus
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: Your password reset code is: 671414
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_2Dhg6FHlBy8mMMzn6XAWChxaPl2abWZHFSdzC1Zus
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: <p>Your password reset code is: <strong>671414</strong></p>
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_2Dhg6FHlBy8mMMzn6XAWChxaPl2abWZHFSdzC1Zus--
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: .
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.0.0 OK  1731998202 ffacd0b85a97d-382462dbb5esm5566944f8f.52 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: QUIT
+
+SMTP Debug: [2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-382462dbb5esm5566944f8f.52 - gsmtp
+
+SMTP Debug: [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3824259de02sm6696472f8f.53 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: EHLO localhost
+
+SMTP Debug: [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2a0d:6fc2:4de0:5e00:44ac:449e:5d78:1abe]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+SMTP Debug: [1] CLIENT -> SERVER: AUTH LOGIN
+
+SMTP Debug: [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+SMTP Debug: [1] CLIENT -> SERVER: [credentials hidden]
+SMTP Debug: [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+SMTP Debug: [1] CLIENT -> SERVER: [credentials hidden]
+SMTP Debug: [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+SMTP Debug: [1] CLIENT -> SERVER: MAIL FROM:<arcanisonline@gmail.com>
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-3824259de02sm6696472f8f.53 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: RCPT TO:<arcanisonline@gmail.com>
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-3824259de02sm6696472f8f.53 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: DATA
+
+SMTP Debug: [2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-3824259de02sm6696472f8f.53 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: Date: Tue, 19 Nov 2024 07:42:24 +0100
+
+SMTP Debug: [1] CLIENT -> SERVER: To: arcanisonline@gmail.com
+
+SMTP Debug: [1] CLIENT -> SERVER: From: Awaken Support <arcanisonline@gmail.com>
+
+SMTP Debug: [1] CLIENT -> SERVER: Subject: Password Reset Code
+
+SMTP Debug: [1] CLIENT -> SERVER: Message-ID: <1tavbdtiLwXLeODEyd87LDJc9eCHbuH5kle6r4IbHg@localhost>
+
+SMTP Debug: [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+SMTP Debug: [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+SMTP Debug: [1] CLIENT -> SERVER:  boundary="b1=_1tavbdtiLwXLeODEyd87LDJc9eCHbuH5kle6r4IbHg"
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_1tavbdtiLwXLeODEyd87LDJc9eCHbuH5kle6r4IbHg
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: Your password reset code is: 890082
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_1tavbdtiLwXLeODEyd87LDJc9eCHbuH5kle6r4IbHg
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: <p>Your password reset code is: <strong>890082</strong></p>
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_1tavbdtiLwXLeODEyd87LDJc9eCHbuH5kle6r4IbHg--
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: .
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.0.0 OK  1731998547 ffacd0b85a97d-3824259de02sm6696472f8f.53 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: QUIT
+
+SMTP Debug: [2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-3824259de02sm6696472f8f.53 - gsmtp
+
+SMTP Debug: [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-382340fbfaesm9916508f8f.9 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: EHLO localhost
+
+SMTP Debug: [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2a0d:6fc2:4de0:5e00:44ac:449e:5d78:1abe]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+SMTP Debug: [1] CLIENT -> SERVER: AUTH LOGIN
+
+SMTP Debug: [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+SMTP Debug: [1] CLIENT -> SERVER: [credentials hidden]
+SMTP Debug: [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+SMTP Debug: [1] CLIENT -> SERVER: [credentials hidden]
+SMTP Debug: [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+SMTP Debug: [1] CLIENT -> SERVER: MAIL FROM:<arcanisonline@gmail.com>
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-382340fbfaesm9916508f8f.9 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: RCPT TO:<arcanisonline@gmail.com>
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-382340fbfaesm9916508f8f.9 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: DATA
+
+SMTP Debug: [2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-382340fbfaesm9916508f8f.9 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: Date: Tue, 19 Nov 2024 07:56:19 +0100
+
+SMTP Debug: [1] CLIENT -> SERVER: To: arcanisonline@gmail.com
+
+SMTP Debug: [1] CLIENT -> SERVER: From: Awaken Support <arcanisonline@gmail.com>
+
+SMTP Debug: [1] CLIENT -> SERVER: Subject: Password Reset Code
+
+SMTP Debug: [1] CLIENT -> SERVER: Message-ID: <6kCwTGogvzJmXSho1WVqZGmHnWtguTcugF84emqNYU@localhost>
+
+SMTP Debug: [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+SMTP Debug: [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+SMTP Debug: [1] CLIENT -> SERVER:  boundary="b1=_6kCwTGogvzJmXSho1WVqZGmHnWtguTcugF84emqNYU"
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_6kCwTGogvzJmXSho1WVqZGmHnWtguTcugF84emqNYU
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: Your password reset code is: 242308
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_6kCwTGogvzJmXSho1WVqZGmHnWtguTcugF84emqNYU
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: <p>Your password reset code is: <strong>242308</strong></p>
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_6kCwTGogvzJmXSho1WVqZGmHnWtguTcugF84emqNYU--
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: .
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.0.0 OK  1731999381 ffacd0b85a97d-382340fbfaesm9916508f8f.9 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: QUIT
+
+SMTP Debug: [2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-382340fbfaesm9916508f8f.9 - gsmtp
+
+SMTP Debug: [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-382488f784esm4812949f8f.14 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: EHLO localhost
+
+SMTP Debug: [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2a0d:6fc2:4de0:5e00:44ac:449e:5d78:1abe]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+SMTP Debug: [1] CLIENT -> SERVER: AUTH LOGIN
+
+SMTP Debug: [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+SMTP Debug: [1] CLIENT -> SERVER: [credentials hidden]
+SMTP Debug: [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+SMTP Debug: [1] CLIENT -> SERVER: [credentials hidden]
+SMTP Debug: [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+SMTP Debug: [1] CLIENT -> SERVER: MAIL FROM:<arcanisonline@gmail.com>
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-382488f784esm4812949f8f.14 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: RCPT TO:<arcanisonline@gmail.com>
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-382488f784esm4812949f8f.14 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: DATA
+
+SMTP Debug: [2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-382488f784esm4812949f8f.14 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: Date: Tue, 19 Nov 2024 07:58:07 +0100
+
+SMTP Debug: [1] CLIENT -> SERVER: To: arcanisonline@gmail.com
+
+SMTP Debug: [1] CLIENT -> SERVER: From: Awaken Support <arcanisonline@gmail.com>
+
+SMTP Debug: [1] CLIENT -> SERVER: Subject: Password Reset Code
+
+SMTP Debug: [1] CLIENT -> SERVER: Message-ID: <SX1snuTY7IE6nuV8QqmYnBMOuHzjaTwVSpLTWK796w@localhost>
+
+SMTP Debug: [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+SMTP Debug: [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+SMTP Debug: [1] CLIENT -> SERVER:  boundary="b1=_SX1snuTY7IE6nuV8QqmYnBMOuHzjaTwVSpLTWK796w"
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_SX1snuTY7IE6nuV8QqmYnBMOuHzjaTwVSpLTWK796w
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: Your password reset code is: 163920
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_SX1snuTY7IE6nuV8QqmYnBMOuHzjaTwVSpLTWK796w
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: <p>Your password reset code is: <strong>163920</strong></p>
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_SX1snuTY7IE6nuV8QqmYnBMOuHzjaTwVSpLTWK796w--
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: .
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.0.0 OK  1731999489 ffacd0b85a97d-382488f784esm4812949f8f.14 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: QUIT
+
+SMTP Debug: [2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-382488f784esm4812949f8f.14 - gsmtp
+
+SMTP Debug: [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3823e986e58sm7704353f8f.92 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: EHLO localhost
+
+SMTP Debug: [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2a0d:6fc2:4de0:5e00:44ac:449e:5d78:1abe]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+SMTP Debug: [1] CLIENT -> SERVER: AUTH LOGIN
+
+SMTP Debug: [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+SMTP Debug: [1] CLIENT -> SERVER: [credentials hidden]
+SMTP Debug: [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+SMTP Debug: [1] CLIENT -> SERVER: [credentials hidden]
+SMTP Debug: [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+SMTP Debug: [1] CLIENT -> SERVER: MAIL FROM:<arcanisonline@gmail.com>
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-3823e986e58sm7704353f8f.92 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: RCPT TO:<arcanisonline@gmail.com>
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-3823e986e58sm7704353f8f.92 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: DATA
+
+SMTP Debug: [2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-3823e986e58sm7704353f8f.92 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: Date: Tue, 19 Nov 2024 08:01:45 +0100
+
+SMTP Debug: [1] CLIENT -> SERVER: To: arcanisonline@gmail.com
+
+SMTP Debug: [1] CLIENT -> SERVER: From: Awaken Support <arcanisonline@gmail.com>
+
+SMTP Debug: [1] CLIENT -> SERVER: Subject: Password Reset Code
+
+SMTP Debug: [1] CLIENT -> SERVER: Message-ID: <FCkfOK21rVOp84fgNzTarYTE5Oy5XQdO8CyxSvlQ@localhost>
+
+SMTP Debug: [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+SMTP Debug: [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+SMTP Debug: [1] CLIENT -> SERVER:  boundary="b1=_FCkfOK21rVOp84fgNzTarYTE5Oy5XQdO8CyxSvlQ"
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_FCkfOK21rVOp84fgNzTarYTE5Oy5XQdO8CyxSvlQ
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: Your password reset code is: 517552
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_FCkfOK21rVOp84fgNzTarYTE5Oy5XQdO8CyxSvlQ
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER:         <!DOCTYPE html>
+
+SMTP Debug: [1] CLIENT -> SERVER:         <html>
+
+SMTP Debug: [1] CLIENT -> SERVER:         <head>
+
+SMTP Debug: [1] CLIENT -> SERVER:             <style>
+
+SMTP Debug: [1] CLIENT -> SERVER:                 body {
+
+SMTP Debug: [1] CLIENT -> SERVER:                     font-family: Arial, sans-serif;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     background-color: #f5f5f5;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     margin: 0;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     padding: 0;
+
+SMTP Debug: [1] CLIENT -> SERVER:                 }
+
+SMTP Debug: [1] CLIENT -> SERVER:                 .email-container {
+
+SMTP Debug: [1] CLIENT -> SERVER:                     max-width: 600px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     margin: 20px auto;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     background-color: #ffffff;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     border: 1px solid #ddd;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     border-radius: 8px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+SMTP Debug: [1] CLIENT -> SERVER:                 }
+
+SMTP Debug: [1] CLIENT -> SERVER:                 .email-header {
+
+SMTP Debug: [1] CLIENT -> SERVER:                     background-color: #24292e;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     padding: 20px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     color: #ffffff;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     text-align: center;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     font-size: 24px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                 }
+
+SMTP Debug: [1] CLIENT -> SERVER:                 .email-content {
+
+SMTP Debug: [1] CLIENT -> SERVER:                     padding: 30px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     font-size: 16px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     color: #333;
+
+SMTP Debug: [1] CLIENT -> SERVER:                 }
+
+SMTP Debug: [1] CLIENT -> SERVER:                 .email-content p {
+
+SMTP Debug: [1] CLIENT -> SERVER:                     margin-bottom: 20px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                 }
+
+SMTP Debug: [1] CLIENT -> SERVER:                 .reset-code {
+
+SMTP Debug: [1] CLIENT -> SERVER:                     display: block;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     text-align: center;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     background-color: #f0f0f0;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     border-radius: 5px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     padding: 10px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     font-size: 22px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     color: #333;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     margin: 20px 0;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     font-weight: bold;
+
+SMTP Debug: [1] CLIENT -> SERVER:                 }
+
+SMTP Debug: [1] CLIENT -> SERVER:                 .email-footer {
+
+SMTP Debug: [1] CLIENT -> SERVER:                     text-align: center;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     font-size: 12px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     color: #888;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     padding: 20px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     border-top: 1px solid #ddd;
+
+SMTP Debug: [1] CLIENT -> SERVER:                 }
+
+SMTP Debug: [1] CLIENT -> SERVER:             </style>
+
+SMTP Debug: [1] CLIENT -> SERVER:         </head>
+
+SMTP Debug: [1] CLIENT -> SERVER:         <body>
+
+SMTP Debug: [1] CLIENT -> SERVER:             <div class="email-container">
+
+SMTP Debug: [1] CLIENT -> SERVER:                 <div class="email-header">
+
+SMTP Debug: [1] CLIENT -> SERVER:                     Awaken Support
+
+SMTP Debug: [1] CLIENT -> SERVER:                 </div>
+
+SMTP Debug: [1] CLIENT -> SERVER:                 <div class="email-content">
+
+SMTP Debug: [1] CLIENT -> SERVER:                     <p>Dear User,</p>
+
+SMTP Debug: [1] CLIENT -> SERVER:                     <p>We received a request to reset your password. Use the code below to reset your password:</p>
+
+SMTP Debug: [1] CLIENT -> SERVER:                     <div class="reset-code">517552</div>
+
+SMTP Debug: [1] CLIENT -> SERVER:                     <p>If you did not request a password reset, please ignore this email or contact support.</p>
+
+SMTP Debug: [1] CLIENT -> SERVER:                 </div>
+
+SMTP Debug: [1] CLIENT -> SERVER:                 <div class="email-footer">
+
+SMTP Debug: [1] CLIENT -> SERVER:                     © 2024 Awaken. All rights reserved.
+
+SMTP Debug: [1] CLIENT -> SERVER:                 </div>
+
+SMTP Debug: [1] CLIENT -> SERVER:             </div>
+
+SMTP Debug: [1] CLIENT -> SERVER:         </body>
+
+SMTP Debug: [1] CLIENT -> SERVER:         </html>
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_FCkfOK21rVOp84fgNzTarYTE5Oy5XQdO8CyxSvlQ--
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: .
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.0.0 OK  1731999707 ffacd0b85a97d-3823e986e58sm7704353f8f.92 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: QUIT
+
+SMTP Debug: [2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-3823e986e58sm7704353f8f.92 - gsmtp
+
+SMTP Debug: [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a640c23a62f3a-aa20dffd7a4sm677984866b.105 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: EHLO 100.42.183.37
+
+SMTP Debug: [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [100.42.183.37]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+SMTP Debug: [1] CLIENT -> SERVER: AUTH LOGIN
+
+SMTP Debug: [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+SMTP Debug: [1] CLIENT -> SERVER: [credentials hidden]
+SMTP Debug: [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+SMTP Debug: [1] CLIENT -> SERVER: [credentials hidden]
+SMTP Debug: [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+SMTP Debug: [1] CLIENT -> SERVER: MAIL FROM:<arcanisonline@gmail.com>
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.1.0 OK a640c23a62f3a-aa20dffd7a4sm677984866b.105 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: RCPT TO:<mapleareabeta@gmail.com>
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.1.5 OK a640c23a62f3a-aa20dffd7a4sm677984866b.105 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: DATA
+
+SMTP Debug: [2] SERVER -> CLIENT: 354 Go ahead a640c23a62f3a-aa20dffd7a4sm677984866b.105 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: Date: Tue, 19 Nov 2024 17:53:00 +0100
+
+SMTP Debug: [1] CLIENT -> SERVER: To: mapleareabeta@gmail.com
+
+SMTP Debug: [1] CLIENT -> SERVER: From: Awaken Support <arcanisonline@gmail.com>
+
+SMTP Debug: [1] CLIENT -> SERVER: Subject: Password Reset Code
+
+SMTP Debug: [1] CLIENT -> SERVER: Message-ID: <oM9zEIoNjbr4ZM4SBWwAEpezHxp8yA2pXKhTlBiO1U@100.42.183.37>
+
+SMTP Debug: [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+SMTP Debug: [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+SMTP Debug: [1] CLIENT -> SERVER:  boundary="b1=_oM9zEIoNjbr4ZM4SBWwAEpezHxp8yA2pXKhTlBiO1U"
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_oM9zEIoNjbr4ZM4SBWwAEpezHxp8yA2pXKhTlBiO1U
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: Your password reset code is: 717512
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_oM9zEIoNjbr4ZM4SBWwAEpezHxp8yA2pXKhTlBiO1U
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER:         <!DOCTYPE html>
+
+SMTP Debug: [1] CLIENT -> SERVER:         <html>
+
+SMTP Debug: [1] CLIENT -> SERVER:         <head>
+
+SMTP Debug: [1] CLIENT -> SERVER:             <style>
+
+SMTP Debug: [1] CLIENT -> SERVER:                 body {
+
+SMTP Debug: [1] CLIENT -> SERVER:                     font-family: Arial, sans-serif;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     background-color: #f5f5f5;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     margin: 0;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     padding: 0;
+
+SMTP Debug: [1] CLIENT -> SERVER:                 }
+
+SMTP Debug: [1] CLIENT -> SERVER:                 .email-container {
+
+SMTP Debug: [1] CLIENT -> SERVER:                     max-width: 600px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     margin: 20px auto;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     background-color: #ffffff;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     border: 1px solid #ddd;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     border-radius: 8px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+SMTP Debug: [1] CLIENT -> SERVER:                 }
+
+SMTP Debug: [1] CLIENT -> SERVER:                 .email-header {
+
+SMTP Debug: [1] CLIENT -> SERVER:                     background-color: #24292e;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     padding: 20px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     color: #ffffff;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     text-align: center;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     font-size: 24px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                 }
+
+SMTP Debug: [1] CLIENT -> SERVER:                 .email-content {
+
+SMTP Debug: [1] CLIENT -> SERVER:                     padding: 30px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     font-size: 16px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     color: #333;
+
+SMTP Debug: [1] CLIENT -> SERVER:                 }
+
+SMTP Debug: [1] CLIENT -> SERVER:                 .email-content p {
+
+SMTP Debug: [1] CLIENT -> SERVER:                     margin-bottom: 20px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                 }
+
+SMTP Debug: [1] CLIENT -> SERVER:                 .reset-code {
+
+SMTP Debug: [1] CLIENT -> SERVER:                     display: block;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     text-align: center;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     background-color: #f0f0f0;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     border-radius: 5px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     padding: 10px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     font-size: 22px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     color: #333;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     margin: 20px 0;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     font-weight: bold;
+
+SMTP Debug: [1] CLIENT -> SERVER:                 }
+
+SMTP Debug: [1] CLIENT -> SERVER:                 .email-footer {
+
+SMTP Debug: [1] CLIENT -> SERVER:                     text-align: center;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     font-size: 12px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     color: #888;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     padding: 20px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     border-top: 1px solid #ddd;
+
+SMTP Debug: [1] CLIENT -> SERVER:                 }
+
+SMTP Debug: [1] CLIENT -> SERVER:             </style>
+
+SMTP Debug: [1] CLIENT -> SERVER:         </head>
+
+SMTP Debug: [1] CLIENT -> SERVER:         <body>
+
+SMTP Debug: [1] CLIENT -> SERVER:             <div class="email-container">
+
+SMTP Debug: [1] CLIENT -> SERVER:                 <div class="email-header">
+
+SMTP Debug: [1] CLIENT -> SERVER:                     Awaken Support
+
+SMTP Debug: [1] CLIENT -> SERVER:                 </div>
+
+SMTP Debug: [1] CLIENT -> SERVER:                 <div class="email-content">
+
+SMTP Debug: [1] CLIENT -> SERVER:                     <p>Dear User,</p>
+
+SMTP Debug: [1] CLIENT -> SERVER:                     <p>We received a request to reset your password. Use the code below to reset your password:</p>
+
+SMTP Debug: [1] CLIENT -> SERVER:                     <div class="reset-code">717512</div>
+
+SMTP Debug: [1] CLIENT -> SERVER:                     <p>If you did not request a password reset, please ignore this email or contact support.</p>
+
+SMTP Debug: [1] CLIENT -> SERVER:                 </div>
+
+SMTP Debug: [1] CLIENT -> SERVER:                 <div class="email-footer">
+
+SMTP Debug: [1] CLIENT -> SERVER:                     © 2024 Awaken. All rights reserved.
+
+SMTP Debug: [1] CLIENT -> SERVER:                 </div>
+
+SMTP Debug: [1] CLIENT -> SERVER:             </div>
+
+SMTP Debug: [1] CLIENT -> SERVER:         </body>
+
+SMTP Debug: [1] CLIENT -> SERVER:         </html>
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_oM9zEIoNjbr4ZM4SBWwAEpezHxp8yA2pXKhTlBiO1U--
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: .
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.0.0 OK  1732035182 a640c23a62f3a-aa20dffd7a4sm677984866b.105 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: QUIT
+
+SMTP Debug: [2] SERVER -> CLIENT: 221 2.0.0 closing connection a640c23a62f3a-aa20dffd7a4sm677984866b.105 - gsmtp
+
+SMTP Debug: [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a640c23a62f3a-aa20e0466b4sm669850666b.159 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: EHLO awakenms.ca
+
+SMTP Debug: [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [100.42.183.37]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+SMTP Debug: [1] CLIENT -> SERVER: AUTH LOGIN
+
+SMTP Debug: [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+SMTP Debug: [1] CLIENT -> SERVER: [credentials hidden]
+SMTP Debug: [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+SMTP Debug: [1] CLIENT -> SERVER: [credentials hidden]
+SMTP Debug: [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+SMTP Debug: [1] CLIENT -> SERVER: MAIL FROM:<no.reply.awaken@gmail.com>
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.1.0 OK a640c23a62f3a-aa20e0466b4sm669850666b.159 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: RCPT TO:<arcanisonline@gmail.com>
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.1.5 OK a640c23a62f3a-aa20e0466b4sm669850666b.159 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: DATA
+
+SMTP Debug: [2] SERVER -> CLIENT: 354 Go ahead a640c23a62f3a-aa20e0466b4sm669850666b.159 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: Date: Tue, 19 Nov 2024 18:32:20 +0100
+
+SMTP Debug: [1] CLIENT -> SERVER: To: Test User <arcanisonline@gmail.com>
+
+SMTP Debug: [1] CLIENT -> SERVER: From: Awaken Support <no.reply.awaken@gmail.com>
+
+SMTP Debug: [1] CLIENT -> SERVER: Subject: Welcome Test
+
+SMTP Debug: [1] CLIENT -> SERVER: Message-ID: <ZoW8QFlSn1cJN5NhffoD2eNHqLsKKWXxlsMlf9Nmyc@awakenms.ca>
+
+SMTP Debug: [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+SMTP Debug: [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+SMTP Debug: [1] CLIENT -> SERVER:  boundary="b1=_ZoW8QFlSn1cJN5NhffoD2eNHqLsKKWXxlsMlf9Nmyc"
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_ZoW8QFlSn1cJN5NhffoD2eNHqLsKKWXxlsMlf9Nmyc
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: This is a plain text body.
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_ZoW8QFlSn1cJN5NhffoD2eNHqLsKKWXxlsMlf9Nmyc
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: <p>This is a test email body.</p>
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_ZoW8QFlSn1cJN5NhffoD2eNHqLsKKWXxlsMlf9Nmyc--
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: .
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.0.0 OK  1732037541 a640c23a62f3a-aa20e0466b4sm669850666b.159 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: QUIT
+
+SMTP Debug: [2] SERVER -> CLIENT: 221 2.0.0 closing connection a640c23a62f3a-aa20e0466b4sm669850666b.159 - gsmtp
+
+SMTP Debug: [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 4fb4d7f45d1cf-5cfe1a8cc46sm808810a12.5 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: EHLO awakenms.ca
+
+SMTP Debug: [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [100.42.183.37]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+SMTP Debug: [1] CLIENT -> SERVER: AUTH LOGIN
+
+SMTP Debug: [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+SMTP Debug: [1] CLIENT -> SERVER: [credentials hidden]
+SMTP Debug: [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+SMTP Debug: [1] CLIENT -> SERVER: [credentials hidden]
+SMTP Debug: [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+SMTP Debug: [1] CLIENT -> SERVER: MAIL FROM:<no.reply.awaken@gmail.com>
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.1.0 OK 4fb4d7f45d1cf-5cfe1a8cc46sm808810a12.5 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: RCPT TO:<shalevdayan1@icloud.com>
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.1.5 OK 4fb4d7f45d1cf-5cfe1a8cc46sm808810a12.5 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: DATA
+
+SMTP Debug: [2] SERVER -> CLIENT: 354 Go ahead 4fb4d7f45d1cf-5cfe1a8cc46sm808810a12.5 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: Date: Tue, 19 Nov 2024 18:34:10 +0100
+
+SMTP Debug: [1] CLIENT -> SERVER: To: welcomemsg <shalevdayan1@icloud.com>
+
+SMTP Debug: [1] CLIENT -> SERVER: From: Awaken Support <no.reply.awaken@gmail.com>
+
+SMTP Debug: [1] CLIENT -> SERVER: Subject: Welcome to Awaken!
+
+SMTP Debug: [1] CLIENT -> SERVER: Message-ID: <8rX87OVt9UPYXirV3Wn7fz623ABAgeSHoXjYRbxA@awakenms.ca>
+
+SMTP Debug: [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+SMTP Debug: [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+SMTP Debug: [1] CLIENT -> SERVER:  boundary="b1=_8rX87OVt9UPYXirV3Wn7fz623ABAgeSHoXjYRbxA"
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_8rX87OVt9UPYXirV3Wn7fz623ABAgeSHoXjYRbxA
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: Welcome, welcomemsg! Thank you for registering. Visit https://awakenms.ca/login.php to log in.
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_8rX87OVt9UPYXirV3Wn7fz623ABAgeSHoXjYRbxA
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+SMTP Debug: [1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER:         <!DOCTYPE html>
+
+SMTP Debug: [1] CLIENT -> SERVER:         <html>
+
+SMTP Debug: [1] CLIENT -> SERVER:         <head>
+
+SMTP Debug: [1] CLIENT -> SERVER:             <style>
+
+SMTP Debug: [1] CLIENT -> SERVER:                 body {
+
+SMTP Debug: [1] CLIENT -> SERVER:                     font-family: Arial, sans-serif;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     background-color: #f5f5f5;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     margin: 0;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     padding: 0;
+
+SMTP Debug: [1] CLIENT -> SERVER:                 }
+
+SMTP Debug: [1] CLIENT -> SERVER:                 .email-container {
+
+SMTP Debug: [1] CLIENT -> SERVER:                     max-width: 600px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     margin: 20px auto;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     background-color: #ffffff;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     border: 1px solid #ddd;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     border-radius: 8px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+SMTP Debug: [1] CLIENT -> SERVER:                 }
+
+SMTP Debug: [1] CLIENT -> SERVER:                 .email-header {
+
+SMTP Debug: [1] CLIENT -> SERVER:                     background-color: #24292e;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     padding: 20px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     color: #ffffff;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     text-align: center;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     font-size: 24px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                 }
+
+SMTP Debug: [1] CLIENT -> SERVER:                 .email-content {
+
+SMTP Debug: [1] CLIENT -> SERVER:                     padding: 30px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     font-size: 16px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     color: #333;
+
+SMTP Debug: [1] CLIENT -> SERVER:                 }
+
+SMTP Debug: [1] CLIENT -> SERVER:                 .email-content p {
+
+SMTP Debug: [1] CLIENT -> SERVER:                     margin-bottom: 20px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                 }
+
+SMTP Debug: [1] CLIENT -> SERVER:                 .login-btn {
+
+SMTP Debug: [1] CLIENT -> SERVER:                     display: inline-block;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     text-decoration: none;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     background-color: #28a745;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     color: #ffffff;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     padding: 10px 20px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     border-radius: 5px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     font-size: 16px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     margin-top: 20px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     text-align: center;
+
+SMTP Debug: [1] CLIENT -> SERVER:                 }
+
+SMTP Debug: [1] CLIENT -> SERVER:                 .email-footer {
+
+SMTP Debug: [1] CLIENT -> SERVER:                     text-align: center;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     font-size: 12px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     color: #888;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     padding: 20px;
+
+SMTP Debug: [1] CLIENT -> SERVER:                     border-top: 1px solid #ddd;
+
+SMTP Debug: [1] CLIENT -> SERVER:                 }
+
+SMTP Debug: [1] CLIENT -> SERVER:             </style>
+
+SMTP Debug: [1] CLIENT -> SERVER:         </head>
+
+SMTP Debug: [1] CLIENT -> SERVER:         <body>
+
+SMTP Debug: [1] CLIENT -> SERVER:             <div class="email-container">
+
+SMTP Debug: [1] CLIENT -> SERVER:                 <div class="email-header">
+
+SMTP Debug: [1] CLIENT -> SERVER:                     Welcome to Awaken!
+
+SMTP Debug: [1] CLIENT -> SERVER:                 </div>
+
+SMTP Debug: [1] CLIENT -> SERVER:                 <div class="email-content">
+
+SMTP Debug: [1] CLIENT -> SERVER:                     <p>Dear welcomemsg,</p>
+
+SMTP Debug: [1] CLIENT -> SERVER:                     <p>Thank you for registering with us. We are thrilled to have you on board!</p>
+
+SMTP Debug: [1] CLIENT -> SERVER:                     <p>Click the button below to log in and start exploring:</p>
+
+SMTP Debug: [1] CLIENT -> SERVER:                     <a href="https://awakenms.ca/login.php" class="login-btn">Log in</a>
+
+SMTP Debug: [1] CLIENT -> SERVER:                 </div>
+
+SMTP Debug: [1] CLIENT -> SERVER:                 <div class="email-footer">
+
+SMTP Debug: [1] CLIENT -> SERVER:                     © 2024 Awaken. All rights reserved.
+
+SMTP Debug: [1] CLIENT -> SERVER:                 </div>
+
+SMTP Debug: [1] CLIENT -> SERVER:             </div>
+
+SMTP Debug: [1] CLIENT -> SERVER:         </body>
+
+SMTP Debug: [1] CLIENT -> SERVER:         </html>
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: --b1=_8rX87OVt9UPYXirV3Wn7fz623ABAgeSHoXjYRbxA--
+
+SMTP Debug: [1] CLIENT -> SERVER: 
+
+SMTP Debug: [1] CLIENT -> SERVER: .
+
+SMTP Debug: [2] SERVER -> CLIENT: 250 2.0.0 OK  1732037651 4fb4d7f45d1cf-5cfe1a8cc46sm808810a12.5 - gsmtp
+
+SMTP Debug: [1] CLIENT -> SERVER: QUIT
+
+SMTP Debug: [2] SERVER -> CLIENT: 221 2.0.0 closing connection 4fb4d7f45d1cf-5cfe1a8cc46sm808810a12.5 - gsmtp
+

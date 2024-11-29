@@ -1,0 +1,547 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+
+    .header__navigation ul {
+        gap: 20px;
+    }
+
+    .header__navigation ul a {
+        font-size: 16px;
+    }
+
+    .header__buttons a {
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .hero__middle {
+        top: 42%;
+    }
+
+    .main__body.server__status {
+        height: 828px;
+    }
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .header__navigation ul {
+        gap: 20px;
+    }
+
+    .header__navigation ul a {
+        font-size: 14px;
+    }
+
+    .header__buttons a {
+        font-size: 14px;
+    }
+
+    .header__logo img {
+        width: 110px;
+    }
+
+    .header__buttons .theme__btn {
+        width: 90px;
+    }
+
+    .header__logo a {
+        margin-left: 10px;
+    }
+
+    .patch__text h1 {
+        font-size: 25px;
+    }
+
+    .patch__list ul li a {
+        font-size: 16px;
+    }
+
+    .patch__timelist p {
+        font-size: 16px;
+    }
+
+    .patch__text {
+        margin: 0 20px;
+    }
+
+    .patch__list {
+        padding: 20px;
+    }
+
+    .patch__timelist {
+        padding-top: 20px;
+    }
+
+    .patch__heading h1 {
+        padding: 20px 0;
+        font-size: 32px;
+    }
+
+    .patch__note-page {
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+
+
+
+
+
+
+
+
+    .hero__middle-item img {
+        max-width: 700px;
+    }
+
+    .main__body.server__status {
+        height: 930px;
+    }
+
+    .hero__aura-effect {
+        position: absolute;
+        top: 180px;
+        right: 0;
+        z-index: 2;
+        text-align: end;
+        width: 50%;
+    }
+
+
+    .hero1 {
+        top: 13%;
+        width: 48%;
+        left: 15%;
+    }
+
+    .hero2 {
+        top: 13%;
+        right: 0;
+        width: 60%;
+    }
+
+    .video__text h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .single__feature {
+        width: 31%;
+    }
+    .single__rank-box {
+        padding: 50px;
+    }
+    .video__content {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .video__text {
+        width: 100%;
+    }
+    .video__preview {
+        width: 100%;
+    }
+
+}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .header__navigation {
+        display: none;
+    }
+
+    .header__buttons a {
+        font-size: 14px;
+    }
+
+    .header__logo img {
+        width: 110px;
+    }
+
+    .header__buttons .theme__btn {
+        width: 90px;
+    }
+
+    .header__logo a {
+        margin-left: 10px;
+    }
+
+    .patch__text h1 {
+        font-size: 25px;
+    }
+
+    .patch__list ul li a {
+        font-size: 16px;
+    }
+
+    .patch__timelist p {
+        font-size: 16px;
+    }
+
+    .patch__text {
+        margin: 0 20px;
+    }
+
+    .patch__list {
+        padding: 20px;
+    }
+
+    .patch__timelist {
+        padding-top: 20px;
+    }
+
+    .patch__heading h1 {
+        padding: 20px 0;
+        font-size: 32px;
+    }
+
+    .patch__note-page {
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+
+    .offcanvas-body .header__buttons a {
+        display: none;
+    }
+
+    .patch__flex {
+        flex-direction: column;
+    }
+
+    .patch__left {
+        width: 100%;
+    }
+
+    .patch__right {
+        width: 100%;
+    }
+
+    .main__body {
+        overflow: unset;
+        height: 100%;
+    }
+
+    .menu__trigger {
+        display: block;
+    }
+
+
+
+
+
+
+
+    .hero__middle-item img {
+        max-width: 560px;
+    }
+
+    .main__body.server__status {
+        height: 690px;
+    }
+
+    .hero2 {
+        top: 0%;
+        width: 60%;
+    }
+
+    .hero1 {
+        top: 0%;
+        left: 15%;
+    }
+    .video__content {
+        flex-direction: column;
+        gap: 40px;
+        padding: 100px 50px;
+    }
+
+    .video__text {
+        width: 100%;
+    }
+
+    .video__preview {
+        width: 100%;
+    }
+    .single__feature {
+        width: 48%;
+    }
+    .feature__area {
+        padding: 120px 0;
+    }
+    .single__rank-box {
+        padding: 40px 50px;
+    }
+    .rank__pagination button {
+        padding: 10px;
+        font-size: 15px;
+    }
+    .single__feature .inner_single:hover {
+        box-shadow: 0 0 20px white;
+        scale: unset;
+    }
+}
+
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .header__navigation {
+        display: none;
+    }
+
+    .header__buttons a {
+        font-size: 14px;
+    }
+
+    .header__logo img {
+        width: 110px;
+    }
+
+    .header__buttons .theme__btn {
+        width: 90px;
+    }
+
+    .header__logo a {
+        margin-left: 0;
+    }
+
+    .patch__text h1 {
+        font-size: 20px;
+    }
+
+    .patch__list ul li a {
+        font-size: 15px;
+    }
+
+    .patch__timelist p {
+        font-size: 16px;
+    }
+
+    .patch__text {
+        margin: 0 20px;
+    }
+
+    .patch__list {
+        padding: 20px;
+    }
+
+    .patch__timelist {
+        padding-top: 20px;
+    }
+
+    .patch__heading h1 {
+        padding: 20px 40px;
+        font-size: 25px;
+    }
+
+    .patch__note-page {
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+
+    .header__buttons .theme__btn {
+        display: none;
+    }
+
+    .header__flex {
+        padding: 10px;
+    }
+
+    .header__buttons a {
+        display: none;
+    }
+
+    .offcanvas-body .header__buttons a {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .patch__flex {
+        flex-direction: column;
+    }
+
+    .patch__left {
+        width: 100%;
+    }
+
+    .patch__right {
+        width: 100%;
+    }
+
+    .main__body {
+        overflow: unset;
+        height: 100%;
+    }
+
+    .menu__trigger {
+        display: block;
+    }
+
+
+
+
+
+
+
+    .hero__middle-item img {
+        max-width: 260px;
+    }
+
+    .main__body.server__status {
+        height: 512px;
+    }
+
+    .hero__middle {
+        bottom: 90px;
+    }
+
+    .hero2 {
+        top: 25%;
+        width: 60%;
+    }
+
+    .hero1 {
+        top: 25%;
+        left: 15%;
+    }
+
+    .hero__middle-button a {
+        height: 35px;
+        width: 110px;
+        font-size: 15px;
+    }
+
+    .section__padding {
+        padding: 0 15px;
+    }
+
+    .hero__server-status h5 {
+        height: 35px;
+        width: 155px;
+        font-size: 15px;
+    }
+
+    .hero__aura-effect {
+        right: 10%;
+        top: 30%;
+    }
+
+    .hero__middle-button {
+        gap: 10px;
+    }
+
+    .video__preview {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .video__text {
+        width: 100%;
+    }
+
+    .video__content {
+        flex-direction: column;
+        padding: 50px 25px;
+    }
+
+    .rank__pagination button {
+        padding: 0px 3px;
+        font-size: 12px;
+    }
+    .video__text h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .single__feature {
+        width: 100%;
+    }
+    .feature__area {
+        padding: 120px 0;
+    }
+    .section__title h1 {
+        font-size: 30px;
+    }
+    .section__title p {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .single__rank-box {
+        padding: 25px;
+    }
+    .rank__box-content span {
+        height: 40px;
+        width: 40px;
+        font-size: 20px;
+    }
+    .rank__level-class span {
+        font-size: 13px;
+        width: 100% !important;
+        height: unset;
+    }
+    .rank__box-content img {
+        width: 40px;
+    }
+    .rank__filter-search input {
+        height: 50px;
+        width: 79%;
+    }
+    .rank__filter-search button {
+        height: 50px;
+    }
+    .footer__content p {
+        font-size: 16px;
+        width: 100%;
+    }
+    .rank__avatar{
+        margin-left: 10px;
+    }
+    .rank__avatar h5 {
+        font-size: 8px;
+        padding: 3px;
+    }
+    @keyframes moveUpDown {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-10px); /* Adjust the value to set the height of the up motion */
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+      .rank__level {
+        flex-direction: column;
+        gap: 10px;
+        width: 76px;
+        align-items: start !important;
+    }
+}
+
+
+
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    .main__body.server__status {
+        height: 600px;
+    }
+    .rank__pagination button {
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+
+}

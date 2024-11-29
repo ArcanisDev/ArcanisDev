@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style_properties>
+  <style_property property_name="dt_node_background" group_name="dohthemeforum" title="Node Background" description="Use images for nodes instead of glyph icons." property_type="value" value_type="boolean" has_variations="0" value_group="Forum" display_order="75">
+    <value>1</value>
+  </style_property>
+</style_properties>

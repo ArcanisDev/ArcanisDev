@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<code_event_listeners>
+  <listener event_id="entity_structure" execute_order="10" callback_class="DohTheme\Core\Listener" callback_method="nodeEntityStructure" active="1" hint="XF\Entity\Node" description="add field"/>
+</code_event_listeners>

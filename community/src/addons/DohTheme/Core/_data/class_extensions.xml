@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class_extensions>
+  <extension from_class="XF\Admin\Controller\Category" to_class="DohTheme\Core\XF\Admin\Controller\Category" execute_order="10" active="1"/>
+  <extension from_class="XF\Admin\Controller\Forum" to_class="DohTheme\Core\XF\Admin\Controller\Forum" execute_order="10" active="1"/>
+  <extension from_class="XF\Admin\Controller\Page" to_class="DohTheme\Core\XF\Admin\Controller\Page" execute_order="10" active="1"/>
+  <extension from_class="XF\Template\Templater" to_class="DohTheme\Core\XF\Template\Templater" execute_order="10" active="1"/>
+</class_extensions>

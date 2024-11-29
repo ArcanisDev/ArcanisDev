@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<activity_summary_definitions>
+  <activity_summary_definition definition_id="latest_posts" definition_class="XF:LatestPosts"/>
+  <activity_summary_definition definition_id="latest_threads" definition_class="XF:LatestThreads"/>
+</activity_summary_definitions>

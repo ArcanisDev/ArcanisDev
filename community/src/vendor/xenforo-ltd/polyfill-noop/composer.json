@@ -1,0 +1,12 @@
+{
+  "name": "xenforo-ltd/polyfill-noop",
+  "version": "1.0.0",
+  "description": "Negates inclusion of unnecessary polyfill packages.",
+  "replace": {
+    "paragonie/random_compat": "*",
+    "symfony/polyfill-ctype": "*",
+    "symfony/polyfill-iconv": "*",
+    "symfony/polyfill-php56": "*",
+    "symfony/polyfill-php70": "*"
+  }
+}

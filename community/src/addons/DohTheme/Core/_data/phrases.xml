@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="node_background" version_id="1000070" version_string="1.0.0"><![CDATA[Node background]]></phrase>
+  <phrase title="style_prop.dt_node_background" version_id="1000070" version_string="1.2.0"><![CDATA[Node Background]]></phrase>
+  <phrase title="style_prop_desc.dt_node_background" version_id="1000070" version_string="1.2.0"><![CDATA[Use images for nodes instead of glyph icons.]]></phrase>
+</phrases>
