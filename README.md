@@ -46,5 +46,11 @@ I’ll continue improving it **in my free time**, and contributions are welcome!
 📌 **Discord:** `zenith_8296`
 
 ---
+💙 Want to Support This Project?
+I built ArcanisCMS with passion and dedication, and I’ll continue to improve it in my free time. But if you’d like to support my work and future updates, you can donate via PayPal:
+
+💰 Donate Here: mapleareabeta@gmail.com
+
+Your support helps me continue developing, improving, and keeping this project alive for the entire community!
 
 © 2025 **ArcanisCMS** | Licensed under **Apache-2.0**
